@@ -23,7 +23,7 @@ Mouse over Buff
 
 Mouse over Heal
 #showtooltip
-/cast [@mouseover,exists,help][@player,nomod] Rejuvenation
+/cast [nomod][@mouseover,exists,nomod,help][@player,nomod] Rejuvenation
 /cast [mod:ctrl][@mouseover,exists,mod:ctrl,help][@player,mod:ctrl] Regrowth
 /cast [mod:shift][@mouseover,exists,help,mod:shift][@player,mod:shift] Healing Touch
 
