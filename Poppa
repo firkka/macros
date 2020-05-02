@@ -19,13 +19,13 @@ Chicken's
 
 Mouse over Buff
  #showtooltip
-/cast [nomod][@mouseover,exists,nomod,help][@player,nomod] Mark of the Wild
-/cast [mod:shift][@mouseover,exists,help, mod:shift][@player, mod:shift] Thorns
+/cast [nomod][@mouseover,exists,help,nomod][@player,nomod] Mark of the Wild
+/cast [mod:shift][@mouseover,exists,help,mod:shift][@player, mod:shift] Thorns
 
 Mouse over Heal
 #showtooltip
-/cast [nomod][@mouseover,exists,nomod,help][@player,nomod] Rejuvenation
-/cast [mod:ctrl][@mouseover,exists,mod:ctrl,help][@player,mod:ctrl] Healing Touch
+/cast [nomod][@mouseover,exists,help,nomod][@player,nomod] Rejuvenation
+/cast [mod:ctrl][@mouseover,exists,help,mod:ctrl][@player,mod:ctrl] Healing Touch
 /cast [mod:shift][@mouseover,exists,help,mod:shift][@player,mod:shift] Regrowth
 
 Dash
