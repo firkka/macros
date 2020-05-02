@@ -20,7 +20,7 @@ Chicken
 Mouse over Buff
  #showtooltip
 /cast [nomod][@mouseover,exists,help,nomod][@player,nomod] Mark of the Wild
-/cast [mod:shift][@mouseover,exists,help,mod:shift][@player, mod:shift] Thorns
+/cast [mod:shift][@mouseover,exists,help,mod:shift][@player,mod:shift] Thorns
 
 Mouse over Heal
 #showtooltip
