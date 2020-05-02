@@ -1,0 +1,40 @@
+Forms
+#showtooltip
+/cancelform [noform]
+/cast [swimming] Aquatic Form
+/cast [nomod] Cat Form
+/cast [mod:shift] Bear Form
+
+Pull
+#showtooltip
+/cast [nomod] Moonfire
+/cast [mod:shift] Starfire
+
+Chicken's
+#showtooltip
+/cast [nomod] Nature's Grasp
+/cast [mod:ctrl] Hibernate
+/cast [mod:shift] Entangling Roots; Cyclone
+
+Mouse over Buff
+ #showtooltip
+/cast [nomod][@mouseover,exists,nomod,help][@player,nomod] Mark of the Wild
+/cast [mod:shift][@mouseover,exists,help, mod:shift][@player, mod:shift] Thorns
+
+Mouse over Heal
+#showtooltip
+/cast [@mouseover,exists,help][@player,nomod] Rejuvenation
+/cast [mod:ctrl][@mouseover,exists,mod:ctrl,help][@player,mod:ctrl] Regrowth
+/cast [mod:shift][@mouseover,exists,help,mod:shift][@player,mod:shift] Healing Touch
+
+Dash
+#showtooltip Dash
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
+/cast !Dash
+
+Prowl
+#showtooltip Prowl
+/cancelform [noform:3]
+/cast [noform:3] Cat Form
+/cast !Prowl
