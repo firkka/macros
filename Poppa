@@ -1,4 +1,4 @@
-Forms
+Form
 #showtooltip
 /cancelform [noform]
 /cast [swimming] Aquatic Form
@@ -11,7 +11,7 @@ Pull
 /cast [mod:shift] Moonfire
 /cast [mod:ctrl] Starfire
 
-Chicken's
+Chicken
 #showtooltip
 /cast [nomod] Nature's Grasp
 /cast [mod:ctrl] Hibernate
