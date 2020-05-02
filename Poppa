@@ -7,8 +7,9 @@ Forms
 
 Pull
 #showtooltip
-/cast [nomod] Moonfire
-/cast [mod:shift] Starfire
+/cast [nomod] Faerie Fire
+/cast [mod:shift] Moonfire
+/cast [mod:ctrl] Starfire
 
 Chicken's
 #showtooltip
@@ -24,8 +25,8 @@ Mouse over Buff
 Mouse over Heal
 #showtooltip
 /cast [nomod][@mouseover,exists,nomod,help][@player,nomod] Rejuvenation
-/cast [mod:ctrl][@mouseover,exists,mod:ctrl,help][@player,mod:ctrl] Regrowth
-/cast [mod:shift][@mouseover,exists,help,mod:shift][@player,mod:shift] Healing Touch
+/cast [mod:ctrl][@mouseover,exists,mod:ctrl,help][@player,mod:ctrl] Healing Touch
+/cast [mod:shift][@mouseover,exists,help,mod:shift][@player,mod:shift] Regrowth
 
 Dash
 #showtooltip Dash
